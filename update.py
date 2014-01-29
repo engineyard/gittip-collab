@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import base64
+
 from urllib import request
 from urllib import parse
 
@@ -37,7 +38,6 @@ for recipient, tip_amount in recipients.items():
 		"amount": "%.2f" % round(tip_amount, 2)
 	})
 
-
 data = json.dumps(tips).encode("utf-8")
 
 url = API_URL % (
@@ -51,6 +51,5 @@ req.add_header('Authorization',
 	"Basic " + base64.urlsafe_b64encode(
 		bytes("%s:" % config["account"]["api_key"], "utf-8")
 	).decode("utf-8"))
-resp = request.urlopen(req, data)
 
-print(resp.read().decode('utf-8'))
+print(request.urlopen(req, data).read().decode('utf-8'))
