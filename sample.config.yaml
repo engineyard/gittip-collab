@@ -1,0 +1,15 @@
+account:
+    username: "you"
+    api_key: "SAMPLE"
+    max_total: 60
+tips:
+    giver1:
+        recipient1: 5
+        recipient2: 15
+    giver2:
+        recipient3: 10
+        recipient4: 10
+    giver3:
+        recipient2: 5
+        recipient4: 5
+        recipient5: 10
