@@ -36,7 +36,11 @@ Set `api_key` to your API key, which can be found on your account dashboard.
 
 The `max_total` here is the maximum weekly amount you want to give. It is split equally between your team members. So if you specify `60` and you have three team members, each team member can tip a maximum of `20`.
 
-Under `tips`, list your team members. These are for you internal use only, `giver1` does not have to match up to anything on Gittip's side. Each giver (i.e. team member) then lists recipients. These _do_ have to match up with Gittip, so `recipient1` should be the username of the person you want to tip. You can specify as many tips as you like, as long as the total tip does not exceed the allowance for individual team members.
+Under `tips`, list your team members. These are for you internal use only, so `giver1` does not have to match up to anything on Gittip's side.
+
+Each giver (i.e. team member) then lists recipients. These _do_ have to match up with Gittip, so `recipient1` should be the username of the person you want to tip.
+
+You can specify as many tips as you like, as long as the total tip does not exceed the allowance for individual team members.
 
 ## How To Run It
 
