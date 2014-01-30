@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# Licensed to the public under the Apache License 2.0.
+
 import base64
 
 from urllib import request
