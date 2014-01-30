@@ -51,3 +51,8 @@ If there is a discrepancy in the amounts specified, the script will exit without
 If you try to tip someone who is not on Gittip, you will see an error message in the JSON that Gittip returns. Check this to make sure that everything looks okay.
 
 It is not necessary to run `update.py` in cron. It is sufficient to run it every time you make changes to the configuration file. If you keep this configuration file in Git, accountability is built in!
+
+##Note: You will need...
+Python3 - `brew search python3` or [here](http://www.python.org/getit/)
+Pip - `sudo easy_install pip`
+YAML - `sudo pip install PyYAML`
