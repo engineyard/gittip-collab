@@ -1,6 +1,6 @@
 # gittip-collab
 
-Simple Gittip collaboration tool for teams.
+Simple Gittip collaboration tool for teams
 
 ## Why This Exists
 
