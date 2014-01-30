@@ -53,6 +53,6 @@ If you try to tip someone who is not on Gittip, you will see an error message in
 It is not necessary to run `update.py` in cron. It is sufficient to run it every time you make changes to the configuration file. If you keep this configuration file in Git, accountability is built in!
 
 ##Note: You will need...
-Python3 - `brew search python3` or [here](http://www.python.org/getit/)
-Pip - `sudo easy_install pip`
-YAML - `sudo pip install PyYAML`
+Python3 - `brew install python3`
+Pip - `sudo easy_install3 pip`
+YAML - `sudo pip3 install PyYAML`
