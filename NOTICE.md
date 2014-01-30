@@ -1,4 +1,4 @@
-# NOTICE
+# Notice
 
 Copyright 2014, Engine Yard Inc.
  
