@@ -12,7 +12,7 @@ Copy `sample.config.yaml` to `sample.config` and edit the file.
 
 The sample config looks like this:
 
-```
+```yaml
 account:
     username: "you"
     api_key: "SAMPLE"
