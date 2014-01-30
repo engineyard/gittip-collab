@@ -4,7 +4,7 @@ Simple Gittip collaboration tool for teams.
 
 ## Why This Exists
 
-At the moment, there is no way for a team to collaborate on a Gittip account. (Something Gittip [plans to fix](https://github.com/gittip/www.gittip.com/issues/1153).) John Resig [built a tool for Khan Academy](http://ejohn.org/blog/gittip-at-khan-academy/) which gives each team member a tip allocation. Which is great, but his tool uses Google Docs. This tool does a similar thing, but the configuration is done with a YAML file.
+At the moment, there is no way for a team to collaborate on a Gittip account. (Something Gittip [plans to fix](https://github.com/gittip/www.gittip.com/issues/1153).) John Resig [built a tool for Khan Academy](http://ejohn.org/blog/gittip-at-khan-academy/) that gives team members a tip allocation. Which is great, but his tool uses Google Docs. This tool does a similar thing, but the configuration is done with a YAML file.
 
 ## How To Configure It
 
