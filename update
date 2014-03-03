@@ -27,9 +27,11 @@ for giver in config["tips"].keys():
         recipient_tip += tip_amount
         recipients[recipient] = recipient_tip
         giver_total += tip_amount
+    giver_tuple = (giver, giver_total, round(giver_max, 2))
     if giver_total > giver_max:
         raise Exception(
-            "%s wants to give %s in total" % (giver, giver_total))
+            "%s wants to give %s of %s" % giver_tuple)
+    print("%s is giving %s of %s" % giver_tuple)
 
 tips = []
 
