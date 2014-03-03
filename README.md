@@ -44,13 +44,13 @@ You can specify as many tips as you like, as long as the total tip does not exce
 
 ## How To Run It
 
-Push configuration changes to Gittip by running `update.py` from the CLI. This will replace all existing tips with the tips configured in the configuration file.
+Push configuration changes to Gittip by running `update` from the CLI. This will replace all existing tips with the tips configured in the configuration file.
 
 If there is a discrepancy in the amounts specified, the script will exit without updating anything.
 
 If you try to tip someone who is not on Gittip, you will see an error message in the JSON that Gittip returns. Check this to make sure that everything looks okay.
 
-It is not necessary to run `update.py` in cron. It is sufficient to run it every time you make changes to the configuration file. If you keep this configuration file in Git, accountability is built in!
+It is not necessary to run `update` in cron. It is sufficient to run it every time you make changes to the configuration file. If you keep this configuration file in Git, accountability is built in!
 
 ## Dependencies
 
